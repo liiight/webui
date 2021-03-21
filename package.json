@@ -110,7 +110,7 @@
     "reselect": "^3.0.1",
     "semver-compare": "^1.0.0",
     "styled-components": "^2.2.1",
-    "typeface-roboto": "0.0.22",
+    "typeface-roboto": "0.0.75",
     "whatwg-fetch": "^2.0.3"
   }
 }
