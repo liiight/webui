@@ -11,7 +11,9 @@
     "lint:css": "stylelint './src/js/**/*.js'",
     "test": "jest",
     "test:watch": "jest --watch",
-    "cov": "cat coverage/lcov.info | codacy-coverage"
+    "cov": "cat coverage/lcov.info | codacy-coverage",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -91,10 +93,10 @@
     "material-ui": "1.0.0-beta.13",
     "normalize.css": "^7.0.0",
     "oboe": "^2.1.4",
-    "prop-types": "^15.6.0",
+    "prop-types": "^15.6.2",
     "qs": "^6.5.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-emotion": "^8.0.6",
     "react-infinite-scroller": "^1.0.15",
     "react-jss": "^7.2.0",
@@ -109,8 +111,10 @@
     "redux-saga": "^0.15.6",
     "reselect": "^3.0.1",
     "semver-compare": "^1.0.0",
-    "styled-components": "^2.2.1",
+    "styled-components": "^4.0.0",
     "typeface-roboto": "0.0.22",
-    "whatwg-fetch": "^2.0.3"
-  }
+    "whatwg-fetch": "^2.0.3",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
