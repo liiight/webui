@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - material-ui > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - react-redux > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - babel-plugin-emotion > babel-generator > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - babel-plugin-emotion > babel-generator > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - emotion > babel-plugin-emotion > babel-generator > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - react-emotion > babel-plugin-emotion > babel-generator > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - emotion > babel-plugin-emotion > babel-generator > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - react-emotion > babel-plugin-emotion > babel-generator > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
+    - redux-form > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-08T21:56:58.757Z'
